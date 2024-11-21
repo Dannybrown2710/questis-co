@@ -1,0 +1,7 @@
+[
+  { "label": "Airfare", "data": [1000], "backgroundColor": "#60A5FA" },
+  { "label": "Accommodation", "data": [500], "backgroundColor": "#F472B6" },
+  { "label": "Food & Drink", "data": [250], "backgroundColor": "#34D399" },
+  { "label": "Transportation", "data": [100], "backgroundColor": "#FBBF24" },
+  { "label": "Activities", "data": [50], "backgroundColor": "#2DD4BF" }
+]

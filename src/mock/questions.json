@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "text": "What is your current level of financial stress?",
+    "options": [
+      "No Stress",
+      "Low Stress",
+      "Moderate Stress",
+      "Overwhelmingly Stress"
+    ],
+    "answered": false,
+    "answer": null
+  },
+  {
+    "id": 2,
+    "text": "Do you have money leftover at the end of each month?",
+    "options": [
+      "Yes, I do",
+      "Not as much, as I'd like",
+      "I'm at a negative balance often"
+    ],
+    "answered": false,
+    "answer": null
+  },
+  {
+    "id": 3,
+    "text": "Do you have enough saved for the retirement?",
+    "options": [
+      "I do have enough saved",
+      "Probably not",
+      "I'm not probably sure"
+    ],
+    "answered": false,
+    "answer": null
+  },
+  {
+    "id": 4,
+    "text": "Could you handle a major emergency expense today? (Around $1000)",
+    "options": ["Yes, I could", "No, I don't think so"],
+    "answered": false,
+    "answer": null
+  },
+  {
+    "id": 5,
+    "text": "Do you pay off your credit card balance every month?",
+    "options": [
+      "I pay it off completely",
+      "I carry a balance",
+      "I don't have a credit card"
+    ],
+    "answered": false,
+    "answer": null
+  },
+  {
+    "id": 6,
+    "text": "Which of the following is a long-term financial goal?",
+    "options": [
+      "Paying off monthly bills",
+      "Saving for retirement",
+      "Buying groceries",
+      "Reducing daily expenses"
+    ],
+    "answered": false,
+    "answer": null
+  }
+]
