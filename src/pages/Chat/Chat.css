@@ -1,0 +1,87 @@
+.chat-container {
+  @apply h-screen w-screen bg-gray-100 flex justify-center items-center font-medium;
+}
+
+.chat-card {
+  @apply w-full max-w-md h-full md:h-[90%] md:rounded-lg shadow-lg flex flex-col rounded-lg;
+}
+
+.chat-header {
+  @apply p-4 flex items-center justify-between;
+}
+
+.header-text {
+  @apply text-lg font-semibold;
+}
+
+.menu-button {
+  @apply text-gray-500 text-xl font-bold;
+}
+
+.chat-messages {
+  @apply flex-1 overflow-y-auto space-y-2;
+}
+
+.user-message {
+  @apply flex rounded-xl p-2 bg-white justify-between w-full items-center;
+}
+
+.user-message-text {
+  @apply w-8 h-8 bg-gray-100 text-black flex justify-center items-center rounded-full;
+}
+
+.bot-response {
+  @apply flex justify-between w-full items-center p-2;
+}
+
+.bot-response-icon {
+  @apply w-8 h-8 text-black flex justify-center text-xl items-center rounded-full self-start mt-2;
+}
+
+.bot-response-text {
+  @apply bg-gray-100 rounded-lg w-[85%];
+}
+
+.chart-data {
+  @apply text-sm space-y-1 mt-4;
+}
+
+.chart-data p {
+  @apply flex justify-between;
+}
+
+.dive-button-container {
+  @apply mb-10 pt-4 flex flex-col space-y-2 items-start;
+}
+
+.action-button {
+  @apply px-4 py-2 rounded-full shadow-sm flex;
+}
+
+.addition-icon {
+  @apply w-6 h-6 flex items-center justify-center border-[1px] border-gray-950 rounded-full text-black text-xl font-bold pb-1;
+}
+
+.automation-data {
+  @apply w-[100%] bg-gray-100 p-3 pl-2 rounded-lg space-y-1 text-sm;
+}
+
+.automation-data p {
+  @apply flex justify-between;
+}
+
+.message-input {
+  @apply p-4 w-[100%] rounded-xl border-none text-lg;
+}
+
+.send-message-button {
+  @apply w-[2.5rem] h-[2.5rem] absolute bg-black text-white rounded-3xl right-10 text-3xl font-bold;
+}
+
+.footer-container {
+  @apply p-4 bg-transparent relative;
+}
+
+.footer-box {
+  @apply flex items-center space-x-2;
+}

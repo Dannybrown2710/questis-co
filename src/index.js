@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom"; // Import routing components
 import "./index.css";
 import App from "./App.js"; // Home component
-import Survey from "./pages/Survey.jsx"; // Import your Survey component
-import Chat from "./pages/Chat"; // Import your Chat component
+import Survey from "./pages/Survey/Survey.tsx"; // Import your Survey component
+import Chat from "./pages/Chat/Chat.tsx"; // Import your Chat component
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

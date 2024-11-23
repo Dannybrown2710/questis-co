@@ -1,0 +1,11 @@
+.survey-container {
+  @apply h-screen w-screen flex justify-center items-center bg-gray-100;
+}
+
+.survey-card {
+  @apply w-[28%] h-[90%] bg-white shadow-2xl overflow-y-scroll relative;
+}
+
+.survey-header {
+  @apply w-[28%] h-[15%] flex justify-center items-end p-5 backdrop-blur-sm fixed bg-white bg-opacity-50 z-10;
+}
